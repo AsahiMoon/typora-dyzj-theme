@@ -54,19 +54,19 @@ content {
 /* 人物背景图片（右下角显示） */
 
 
-@media only screen and (min-width: 1600px){
-    @media only screen and (min-width: 1800px){
+@media only screen {
+    @media only screen {
         body:not(.typora-sourceview-on) content {
             background: var(--bgimg-url) no-repeat;
-            background-size : 12%;
-            background-position: 86% 100%;
+            background-size : 20%;
+            background-position: 90% 100%;
         }
     }
-    @media only screen and (max-width: 1800px){
+    @media only screen {
         body:not(.pin-outline, .typora-sourceview-on) content {
             background: var(--bgimg-url) no-repeat;
-            background-size : 12%;
-            background-position: 86% 100%;
+            background-size : 20% ;
+            background-position: 90% 100%;
         }
     }
     /*效仿https://github.com/Soanguy/typora-theme-autumnus，取消下面注释，并注释上面即可，换个背景（透明）风格*/
